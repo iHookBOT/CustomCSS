@@ -1,0 +1,124 @@
+# /* name colours */
+#chat .chat-container .chat-messages .chat-main li.creator .user-role,
+#chat .chat-container .chat-messages .chat-main li.creator .username,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .username
+{
+    color: #FFD700;
+}
+
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
+#chat .chat-container .chat-messages .chat-main li.co-owner .username,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username
+{
+    color: #EE82EE;
+}
+
+#chat .chat-container .chat-messages .chat-main li.manager .user-role,
+#chat .chat-container .chat-messages .chat-main li.manager .username,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .username
+{
+    color: #FF0000;
+}
+
+#chat .chat-container .chat-messages .chat-main li.mod .user-role,
+#chat .chat-container .chat-messages .chat-main li.mod .username,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .username
+{
+    color: #E5E4E2;
+}
+
+#chat .chat-container .chat-messages .chat-main li.vip .user-role,
+#chat .chat-container .chat-messages .chat-main li.vip .username,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .username
+{
+    color: #50C878;
+}
+
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
+#chat .chat-container .chat-messages .chat-main li.resident-dj .username,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username
+{
+    color: #33CCFF;
+}
+
+#chat .chat-container .chat-messages .chat-main li.admin .user-role,
+#chat .chat-container .chat-messages .chat-main li.admin .username,
+#main_avatar_room #main-user-list-room #avatar-list li.admin .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.admin .username
+{
+    color: #C0C0C0;
+}
+
+#chat .chat-container .chat-messages .chat-main li.user-55ffae6a1564a403003f5132 .user-role,
+#chat .chat-container .chat-messages .chat-main li.user-55ffae6a1564a403003f5132 .username,
+#main_avatar_room #main-user-list-room #avatar-list li.userid-55ffae6a1564a403003f5132 .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.userid-55ffae6a1564a403003f5132 .username
+{
+    color: #FFFFFF;
+}
+
+.admin .username:after
+{
+    display: none;
+}
+
+/* badges */
+.creator span.user-role-icon {
+    background-image: url(http://www.adkgamers.com/uploads/monthly_07_2015/post-12900-0-26729500-1438055424.png);
+    display: inline-block !important;
+}
+
+.co-owner span.user-role-icon {
+    background-image: url(http://icons.veryicon.com/png/Application/CS3%20Master%20Collection/co.png);
+    display: inline-block !important;
+}
+
+.manager span.user-role-icon {
+    background-image: url(https://pro-rankedboost.netdna-ssl.com/wp-content/uploads/2014/09/master-rewards-lol.png);
+    display: inline-block !important;
+}
+
+.mod span.user-role-icon {
+    background-image: url(http://www.iconsdb.com/icons/preview/orange/moderator-xxl.png);
+    display: inline-block !important;
+}
+
+.vip span.user-role-icon {
+    background-image: url(http://cdn.onlinewebfonts.com/svg/download_346131.png);
+    display: inline-block !important;
+}
+
+.resident-dj span.user-role-icon {
+    background-image: url(https://pro-rankedboost.netdna-ssl.com/wp-content/uploads/2014/09/bronze-rewards-lol.png);
+    display: inline-block !important;
+}
+
+#chat .chat-main .user-56005297239f1303009c88c5 .username {
+    color: #4dc9ff !important;
+}
+
+/* Emote sizes */
+#chat .emoji {
+    max-width: none !important;
+    max-height: 28px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+/* me command fix */
+#chat .chat-container .chat-messages .chat-main li.system-error {
+    text-transform: uppercase;
+}
+
+#chat .chat-main li[class*='system'] {
+    color: darkturquoise !important;
+    text-align: center;
+    border-top: darkturquoise 1px solid !important;
+    border-bottom: darkturquoise 1px solid !important;
+}
